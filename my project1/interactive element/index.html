@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8" />
+
+    <title></title>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+  </head>
+
+  <body>
+
+    <div class="form-container">
+
+      <form>
+
+        <label for="name">Name:</label>
+
+        <input type="text" id="name" />
+
+        <br />
+
+        <label for="email">Email:</label>
+
+        <input type="email" id="email" />
+
+        <br />
+
+        <label for="message">Message:</label>
+
+        <textarea
+
+          id="message"
+
+          name="message"
+
+          rows="5"
+
+          cols="30"
+
+          required
+
+        ></textarea>
+
+        <br />
+
+        <input type="submit" value="Submit" onclick="submitted()" />
+
+      </form>
+
+    </div>
+
+    <script>
+
+      function submitted() {
+
+        alert("submitted");
+
+      }
+
+    </script>
+
+  </body>
+
+</html>
